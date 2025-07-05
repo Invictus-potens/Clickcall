@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p>teste</p>
+</body>
+</html>
+
+      <script>
+        window.WlExtension.initialize({
+          buttons: {
+            'contacts-list': [
+              {
+                icon_url: 'https://axy7gbdyolcg.compat.objectstorage.eu-frankfurt-1.oraclecloud.com/media01/public/system/631f2b4f307d23f46ac80a0a/chat/66577ea3bb467c35d4be4ad7/clicktocallicon.png', // Ícone 25x25 opcional
+                text: 'Ver Cotações',
+                callback: () => {
+                  window.WlExtension.openPage({
+                    url: "https://felipeprado0.github.io/ClickCallKrolik/"
+                  });
+                }
+              }
+            ]
+          }
+        });
+      </script>
